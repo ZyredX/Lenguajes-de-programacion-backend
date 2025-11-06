@@ -1,11 +1,17 @@
-Recuerda hacer las pruebas con una aplicación de tipo cliente como Postman, Insomnia, ThunderClient o la que prefieras.
+# 🚗 Aplicacion Vehiculos,Moto + Springboot
 
-Aquí te relaciono un ejemplo para el body de la petición: 
+Este proyecto fue creado en Java usando Spring Boot y Maven.
+Su objetivo es poder crear un vehiculo y moto con la informacion necesaria
+(Marca,Modelo,año)
 
-{
-  "marca": "Mazda",
-  "modelo": "3",
-  "anio": 2022
-}
+# 📄 Características
+Hecho con Spring Boot + Java
+API REST con endpoints documentados
+probado con PostMan
 
-Es tu trabajo ampliar las funcionalidades del proyecto para moto y un nuevo tio de vehiculo
+# 💾 Arquitectura usada
+**⁍ Controller:** Es el encargado de los endpoints
+**⁍ Service:** Contiene la logica del vehiculo/moto
+**⁍ Repository:** Gestiona el almacenamiento y lectura de datos en archivos JSON
+**⁍ Model:** Define las entidades principales del sistema
+**⁍ Dto:** Es el bus que permite la transaccion de datos entre backend y frontend
