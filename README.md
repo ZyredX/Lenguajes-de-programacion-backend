@@ -142,3 +142,10 @@ Esto tiene que quedar asi:
 • Metodo: **DELETE**  
 • {id_moto}: Aqui va el id de la moto creada   
 <img src="img/eliminarM.png" alt="PostMan" width="800">  
+
+## 🔑 CREDITOS 
+
+» Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
+Agradezco su ayuda y dedicación durante el desarrollo del proyecto, aprendi bastante sobre como funcionan los endpoint, como es el funcionamiento de un Dto, etc.  
+
+Todo esto fue posible gracias a el!
