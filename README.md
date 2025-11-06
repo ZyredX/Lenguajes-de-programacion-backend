@@ -1,4 +1,4 @@
-# 🚗 Aplicacion Vehiculos,Moto + Springboot  
+<img width="1749" height="265" alt="{C284233A-B458-401E-A4AA-3567A41295AB}" src="https://github.com/user-attachments/assets/fd3373ea-5a47-4081-b10d-cfd581c0eff0" /># 🚗 Aplicacion Vehiculos,Moto + Springboot  
 
 Este proyecto fue creado en Java usando Spring Boot y Maven.  
 Su objetivo es poder crear un vehiculo y moto con la informacion necesaria  
@@ -35,7 +35,7 @@ probado con PostMan
 › Lo principal es descargar **JDK** , **Visual Studio Code** , **PostMan** desde la seccion de (📤 Aplicaciones Principales)  
 
 ## |Paso 2️⃣|  
-› Abrir **Visual Studio code**.
+› Abrir **Visual Studio code** y **postman**(es necesario crear una cuenta)  
 
 ## |Paso 3️⃣|  
 › Descargar las extensiones.  
@@ -53,30 +53,24 @@ probado con PostMan
 <img src="img/abrirSpringboot.png" alt="Instalar extensiones" width="450">  
 
 ## |Paso 6️⃣|  
-› Para probar que el proyecto funciona necesitamos thunder, que es una de las extensiones que se necesitan descargar.  
-Tenemos que crear el "New request"  
+› Para probar que el proyecto funciona necesitamos Postman, que es una de las Apps que se necesitan descargar.  
+Tenemos que ir a Collection/New/Add request  
+Asi: 
 
-<img src="img/crearthunder.png" alt="Crear Thunder" width="450">  
+<img src="img/UsarPostman.png" alt="Crear Postman" width="450">  
 
 ## |Paso 7️⃣|  
-› Luego de crear el **Thunder**, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
-1. Colocar de manera correcta la **URL** en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/bank/customers )
+› Luego de crear el **New Request**, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
+1. Colocar de manera correcta la **URL** en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/vehiculos )
 2. Verificar que el endpoint, sea el correcto, para saber cual usar se puede verificar desde el apartado de controlador.
 3. Irse a la parte de body para copiar el codigo correspondiente.  
-4. Colocar el codigo **JSON**, en este caso seria este:  
 
-{
-  "id": "1" ,
-  "name": "Juan" ,
-  "email": "juancarlossalazar@gmail.com"
-}
+``` java{"marca":"mercedes","modelo":"v10","anio":2025} ``` 
+
+4. Opcional puedes colocar la imagen de un vehiculo y tambien se carga (tiene que ser una URL de un archivo de tu computadora)    
 
 5. Le dariamos click al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
 
-<img src="img/thunder1.png" alt="Thunder Agregar cliente" width="800">  
+Esto tiene que quedar asi:  
+<img src="img/Postmanc.png" alt="PostMan" width="800">  
 
-## |Paso 8️⃣|  
-› Para verificar que el thunder envio el codigo **JSON** al servidor local, se coloca el mismo URL que usamos en este caso es  
-( http://localhost:8080/api/bank/customers ) esta **URL** se coloca en un navegador y deberia salir asi:  
-
-<img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
