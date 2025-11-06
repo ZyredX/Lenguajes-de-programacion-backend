@@ -29,3 +29,54 @@ probado con PostMan
 ▪ ⚙️ **Project Manager for Java** | Gestión de proyectos Java dentro de VS Code. | [Descargar](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)  
 ▪ 💚 **Spring Boot Extension Pack** | Extensiones esenciales para desarrollar con Spring Boot. | [Descargar](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-boot-dev-pack)  
 ▪ 🚀 **Spring Boot Dashboard** | Permite correr, detener y monitorear proyectos Spring Boot fácilmente. | [Descargar](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)  
+
+## ⚙️ Instalación y ejecución
+## |Paso 1️⃣|  
+› Lo principal es descargar **JDK** , **Visual Studio Code** , **PostMan** desde la seccion de (📤 Aplicaciones Principales)  
+
+## |Paso 2️⃣|  
+› Abrir **Visual Studio code**.
+
+## |Paso 3️⃣|  
+› Descargar las extensiones.  
+
+<img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">  
+
+## |Paso 4️⃣|  
+› Abrir el proyecto (Se tiene que descargar previamente, desde la parte de "<> code" y "Download Zip", luego se extrae en una carpeta) para abrirla se hace:  
+
+<img src="img/Abrircarpeta.png" alt="Abrir carpeta" width="450">  
+
+## |Paso 5️⃣|  
+› Para correr el proyecto desde **Spring Boot**, se necesitan las extensiones que se ubican en (📦 Extensiones Usadas), luego irse al icono de Spring y hacer esto:  
+
+<img src="img/abrirSpringboot.png" alt="Instalar extensiones" width="450">  
+
+## |Paso 6️⃣|  
+› Para probar que el proyecto funciona necesitamos thunder, que es una de las extensiones que se necesitan descargar.  
+Tenemos que crear el "New request"  
+
+<img src="img/crearthunder.png" alt="Crear Thunder" width="450">  
+
+## |Paso 7️⃣|  
+› Luego de crear el **Thunder**, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
+1. Colocar de manera correcta la **URL** en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/bank/customers )
+2. Verificar que el endpoint, sea el correcto, para saber cual usar se puede verificar desde el apartado de controlador.
+3. Irse a la parte de body para copiar el codigo correspondiente.  
+4. Colocar el codigo **JSON**, en este caso seria este:  
+
+{
+  "id": "1" ,
+  "name": "Juan" ,
+  "email": "juancarlossalazar@gmail.com"
+}
+
+5. Le dariamos click al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
+
+<img src="img/thunder1.png" alt="Thunder Agregar cliente" width="800">  
+
+## |Paso 8️⃣|  
+› Para verificar que el thunder envio el codigo **JSON** al servidor local, se coloca el mismo URL que usamos en este caso es  
+( http://localhost:8080/api/bank/customers ) esta **URL** se coloca en un navegador y deberia salir asi:  
+
+<img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
