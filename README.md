@@ -1,4 +1,4 @@
-<img width="1749" height="265" alt="{C284233A-B458-401E-A4AA-3567A41295AB}" src="https://github.com/user-attachments/assets/fd3373ea-5a47-4081-b10d-cfd581c0eff0" /># 🚗 Aplicacion Vehiculos,Moto + Springboot  
+# 🚗 Aplicacion Vehiculos,Moto + Springboot  
 
 Este proyecto fue creado en Java usando Spring Boot y Maven.  
 Su objetivo es poder crear un vehiculo y moto con la informacion necesaria  
