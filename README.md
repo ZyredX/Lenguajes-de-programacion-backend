@@ -1,4 +1,4 @@
-# 🚗 Aplicacion Vehiculos,Moto + Springboot  
+## 🚗 Aplicacion Vehiculos,Moto + Springboot  
 
 Este proyecto fue creado en Java usando Spring Boot y Maven.  
 Su objetivo es poder crear un vehiculo y moto con la informacion necesaria  
@@ -57,7 +57,7 @@ probado con PostMan
 Tenemos que ir a Collection/New/Add request  
 Asi: 
 
-<img src="img/UsarPostman.png" alt="Crear Postman" width="450">  
+<img src="img/UsarPostman.png" alt="Crear Postman" width="600">  
 
 ## |Paso 7️⃣|  
 › Luego de crear el **New Request**, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
@@ -69,8 +69,41 @@ Asi:
 
 4. Opcional puedes colocar la imagen de un vehiculo y tambien se carga (tiene que ser una URL de un archivo de tu computadora)    
 
-5. Le dariamos click al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
+5. Le dariamos click al boton de **"Send"** para enviarlo y que se muestre el Vehiculo ya creado.
 
 Esto tiene que quedar asi:  
+
 <img src="img/Postmanc.png" alt="PostMan" width="800">  
+
+## 📂 Otros Metodos (Vehiculo 🚗)  
+
+# Mostrar Todos los Vehiculos Creados.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos    
+• Metodo: **GET**  
+<img src="img/MostrarV.png" alt="PostMan" width="800">  
+
+# Mostrar Vehiculo por Id.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos/{id_vehiculo}    
+• Metodo: **GET**  
+• {id_vehiculo}: Aqui va el id del vehiculo creado    
+<img src="img/MostrarV.png" alt="PostMan" width="800">  
+
+# Actualizar Vehiculo.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos/{id_vehiculo}    
+• Metodo: **PUT**  
+• {id_vehiculo}: Aqui va el id del vehiculo creado    
+• Codigo: ``` java{"marca":"toyota","modelo":"v32","anio":2026} ```  
+<img src="img/ActualizarV.png" alt="PostMan" width="800">  
+
+# Eliminar Vehiculo.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos/{id_vehiculo}    
+• Metodo: **DELETE**  
+• {id_vehiculo}: Aqui va el id del vehiculo creado    
+<img src="img/DeleteV.png" alt="PostMan" width="800">  
+
+
 
