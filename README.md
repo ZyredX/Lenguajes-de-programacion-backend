@@ -107,6 +107,7 @@ Esto tiene que quedar asi:
 
 
 ## 📂 Otros Metodos (Moto 🏍️)  
+Para los metodos de moto solo se reemplaza la parte de "vehiculos" a "moto",tambien se cambian los valores por los de motos reales.  
 
 # Crear Moto.  
 
