@@ -106,4 +106,39 @@ Esto tiene que quedar asi:
 <img src="img/DeleteV.png" alt="PostMan" width="800">  
 
 
+## 📂 Otros Metodos (Moto 🏍️)  
 
+# Crear Moto.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/motos    
+• Metodo: **POST**    
+• Codigo: ``` java{"marca":"yamaha","modelo":"r1","anio":2024} ```  
+<img src="img/CrearM.png" alt="PostMan" width="800">  
+
+# Mostrar Todas las Motos Creadas.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/motos    
+• Metodo: **GET**  
+<img src="img/BuscarMotosTodas.png" alt="PostMan" width="800">  
+
+# Mostrar Moto por Id.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/motos/{id_moto}    
+• Metodo: **GET**  
+• {id_moto}: Aqui va el id de la moto creada    
+<img src="img/buscarmotoporid.png" alt="PostMan" width="800">  
+
+# Actualizar Moto.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos/{id_moto}  
+• Metodo: **PUT**  
+• {id_moto}: Aqui va el id de la moto creada   
+• Codigo: ``` java{"marca":"kawasaki","modelo":"ninja","anio":2025} ```  
+<img src="img/actualizarMoto.png" alt="PostMan" width="800">  
+
+# Eliminar Moto.  
+
+• En el **URL** debe ir asi: http://localhost:8080/api/vehiculos/{id_Moto}    
+• Metodo: **DELETE**  
+• {id_moto}: Aqui va el id de la moto creada   
+<img src="img/eliminarM.png" alt="PostMan" width="800">  
